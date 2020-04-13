@@ -511,11 +511,16 @@
 			}
 			function specialEffects(){
 				if(localStorage.getItem("manualColor")=="#ff0000"){
-					setTimeout(function() { createNote("Semangat US nya ya :v"); }, 5000);
+					setTimeout(function() { createNote("Semangat US nya ya Temen-Temen:v"); }, 5000);
 				}
 				else if(localStorage.getItem("manualColor")=="#000000"){
-					setTimeout(function() { createNote("Lo Mau Ga Jadi Pacar W:v"); }, 5000);
+					setTimeout(function() { createNote("Jadian yuk,lo mau gak jadi pacar gw:v"); }, 5000);
 				}
+				if(localStorage.getItem("manualColor")=="#0092ff"){
+					setTimeout(function() { createNote("Hanya dengan memilikimu gw bisa merasakan cinta dan harapan:v"); }, 5000);
+				}
+				else if(localStorage.getItem("manualColor")=="#ff0096"){
+					setTimeout(function() { createNote("Gw gatau sampai kapan umur gw,tapi w yakin cinta gw selamanya buat lo:v"); }, 5000);
 			}
 			function createNote(isi){
 				$(".jam").css("font-size","30pt").css("bottom","calc( 50% - 50px )");
